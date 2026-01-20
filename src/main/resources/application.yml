@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ecommerce
+#  data:
+#    mongodb:
+#      host: localhost
+#      port: 27017
+#      database: ecommerce_db
+
+de:
+  flapdoodle:
+    mongodb:
+      embedded:
+        version: 6.0.8
